@@ -1,0 +1,35 @@
+.logo-gear {
+    fill:#A7A9AC;
+    transform-origin: 50% 50%;
+}
+
+.logo-knight {
+    fill:#ED1C24;
+}
+
+.logo {
+    height: 60vh;
+    width: 60vh;
+}
+
+.logo-small {
+  height: 80px;
+  width: 80px;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .loading-gear {
+      animation: logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
